@@ -1,0 +1,5 @@
+fname=input('Enter File Name: ')
+fopen=open(fname)
+read=fopen.read()
+upper=read.upper()
+print(upper)
